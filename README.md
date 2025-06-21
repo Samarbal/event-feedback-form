@@ -16,7 +16,7 @@ It includes form inputs, checkboxes, a range slider, a footer with contact info,
 - HTML5
 
 ## Preview
-Open `index.html` in any web browser.
+Open `Feedback_Form.html` in any web browser.
 
 ## Author
 Made with ❤️ by Samar Balousha
