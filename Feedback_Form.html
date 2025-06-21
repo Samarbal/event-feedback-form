@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Title -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Event Feedback Form </title>
+    </head>
+
+    <!--Body -->
+    <body>
+        <header>
+            <h1>Event Feedback Form</h1>
+            <p>We value your feedback! Please fill out the form below to help us improve future events.</p> 
+           
+        </header>
+       
+         <main>   
+            <form action="#" method="post">
+                 <fieldset> 
+                    <legend> Feedback Form </legend>
+
+                <div>  <!--Full name -->
+                    <label for="N"> Full Name: </label>
+                    <input required type="text" id="F_N" placeholder="Please enter your full name " name="name" >
+                 </div>
+<br> 
+                <div>  <!--Event name -->
+                    <label for="E_N">Event Name: </label>
+                    <input required type="text" id="E_N" placeholder="Please enter the name of the event you attended" name="eventname" >
+                 </div> 
+<br>
+                <div>  <!--Email Address-->
+                    <label for = "email">Email Address: </label>
+                    <input required id = 'email' type="email" placeholder="you@example.com " name="email" >
+                </div> 
+<br>
+                <div> <!--overall event rating 1 - 10 -->
+                     <label for="rating">Overall Event Rating (1-10): </label>
+                     <input required type="range" id="rating" name="rating" min="1" max="10" placeholder="Rate from 1 to 10">
+                </div>
+
+<br>
+               <div> <!--how satrisfied are you  -->
+                     <label for="satisfaction">How satisfied are you with the event?</label><br>
+                     <select id="satisfaction" name="satisfaction" required>
+                        <option value="">-- Select --</option>
+                        <option value="poor">Poor</option>
+                        <option value="ok">Okay</option>
+                        <option value="good">Good</option>
+                        <option value="awesome">Awesome</option>
+                     </select><br><br>
+
+               </div>              
+<br>
+               <div> <!--what aspects of the event did you enjoy // check box -->
+            
+                
+                 <label>What aspects of the event did you enjoy? (Select all that apply)</label><br>
+                 <input type="checkbox" name="enjoy[]" value="sessions"> Sessions<br>
+                 <input type="checkbox" name="enjoy[]" value="networking"> Networking Opportunities<br>
+                 <input type="checkbox" name="enjoy[]" value="food"> Food and Beverages<br>
+                 <input type="checkbox" name="enjoy[]" value="venue"> Venue<br>
+                 <input type="checkbox" name="enjoy[]" value="other"> Other<br><br>
+
+
+               </div> 
+               
+<br>
+               <div> <!-- text area /// what could be improved for the next event ? -->
+                <label for="improvement">What could be improved for the next event?</label><br>
+                <textarea id="improvement" name="improvement" placeholder="Please share your suggestions for improvement" style="width: 75%; height: 100px;"></textarea><br><br>
+
+               </div>
+               
+<br>
+               <div> <!-- a state of agreement in a checkbox    then a submit botton --> 
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement">I agree to the terms and conditions</label><br><br>
+
+                <input type="submit" value="Submit Feedback">
+
+               </div>                
+
+
+
+
+
+
+                </fieldset>
+            </form>
+        </main>
+    
+
+           <footer>
+        <!-- for further informations keep in touch ! -->
+         <h3>Contact us for more info </h3>
+         <p>Email: <a href="mailto:ourcompany@example.com"></a></p>
+         <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+            <p>Address: 123 Event St, City, Country</p>
+
+            <h4>Follow us on social media:</h4>   
+            <p>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.X.com" target="_blank">X</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            </p> 
+            
+            <input type="checkbox" id="subscribe" name="subscribe" required>
+            <label for="subscribe">I would like to receive future updates and emails from the company.</label>
+            
+            
+    </footer>
+
+    </body>
+    
+
+
+</html>
