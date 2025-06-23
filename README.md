@@ -1,22 +1,38 @@
+# 🌟 Event Feedback Form
 
-# Event Feedback Form
+This is a simple front-end project I built using **HTML** and **CSS**. It's a feedback form designed for collecting attendee opinions after an event — styled with a clean and modern layout.
 
-A simple HTML-only project that simulates a feedback form for an event.  
-It includes form inputs, checkboxes, a range slider, a footer with contact info, and social media links.
+---
 
-## Features
-- Full name, email, event name input
-- Range slider for rating
-- Satisfaction dropdown
-- Checkbox options for event highlights
-- Textarea for suggestions
-- Contact info and social media in footer
+## 💻 What I’ve Built
 
-## Technologies
-- HTML5
+- A fully functional **HTML form** that includes:
+  - Full Name, Email, and Event Name fields
+  - A rating slider (1 to 10)
+  - Satisfaction dropdown
+  - Checkboxes for feedback
+  - A text area for suggestions
+  - Data agreement confirmation
+- A responsive and clean **CSS design** to bring it all to life
+- A professional-looking **footer** with contact info and social media links
 
-## Preview
-Open `Feedback_Form.html` in any web browser.
+---
+
+## 🚀 Technologies Used
+
+- **HTML5**
+- **CSS3**
+
+> This project is part of my journey in learning front-end development — I learned HTML in one week, applied it in a mini project, and then styled it step-by-step as I learned CSS.
+
+---
+
+## 📷 Preview
+
+![image](https://github.com/user-attachments/assets/7f67d5bf-3191-4556-9890-165383c874e6)
+
+
+#HTML #CSS #FrontendDevelopment #SelfLearning #LearningJourney #WomenInTech
 
 ## Author
 Made with ❤️ by Samar Balousha
