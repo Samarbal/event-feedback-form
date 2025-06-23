@@ -1,0 +1,104 @@
+/* ===== Basic Page Styling ===== */
+body {
+  font-family: Arial, sans-serif; /* Use a clean, readable font */
+  background-color: #f4f4f4;      /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Header Text Styling ===== */
+h1 {
+  text-align: center;
+  color: #333;                    /* Dark gray text for better contrast */
+}
+
+p {
+  text-align: center;
+  color: #555;                    /* Softer gray for paragraph text */
+}
+
+
+/* ===== Form Container Styling ===== */
+form {
+  background-color: #fff;         /* White background for the form box */
+  max-width: 600px;               /* Limit form width for better readability */
+  margin: 30px auto;              /* Center form on the page */
+  padding: 30px;
+  border-radius: 10px;            /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+
+/* ===== Form Field Styling ===== */
+label {
+  font-weight: bold;
+  display: box ;                 /* Make each label appear on its own line */
+  margin-bottom: 5px;
+  color: #222;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="range"],
+textarea,
+select {
+  width: 100%;                    /* Full width input fields */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;         /* Light gray border */
+  border-radius: 5px;
+  box-sizing: border-box;         /* Include padding in width */
+}
+
+
+/* ===== Range Slider Styling ===== */
+input[type="range"] {
+  accent-color: #0a74da;          /* Blue color for the slider thumb and track */
+}
+
+/* ===== Checkbox and Radio Styling ===== */
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+/* ===== Submit and Reset Button Styling ===== */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #0a74da;      /* Main button color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #084e8a;      /* Darker shade on hover */
+}
+
+/* ===== Footer Styling ===== */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffd700;                 /* Gold color for links */
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
